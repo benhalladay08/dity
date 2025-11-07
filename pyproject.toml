@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dity"
+version = "0.0.1"
+description = "A DIT tool to DIY - Python CLI tool for DITs on set and editors in post."
+authors = [
+    {name = "Ben Halladay", email = "benhalladay8@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+
+[project.urls]
+Homepage = "https://github.com/benhalladay08/dity"
+Repository = "https://github.com/benhalladay08/dity"
+
+[project.scripts]
+dity = "dity.cli:main"
