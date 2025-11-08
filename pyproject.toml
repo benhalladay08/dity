@@ -11,7 +11,7 @@ authors = [
 ]
 readme = "README.md"
 requires-python = ">=3.8"
-license = {text = "MIT"}
+license = {text = "GNU"}
 
 [project.urls]
 Homepage = "https://github.com/benhalladay08/dity"
