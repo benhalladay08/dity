@@ -1,0 +1,1 @@
+# Eventually we'll need to write a daemon process so copies can run in the background.
