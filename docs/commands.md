@@ -10,7 +10,7 @@ This document provides a comprehensive reference for all available Dity CLI comm
 
 ---
 
-The `scan` command looks for newly connected external drives and adds them to the list of known drives, which can be read using `dity list-drives`. It finds the drives and scand the folder structure to determine if it fits any of the given drive formats provided in `~/.dity/drive-types`.
+The `scan` command looks for newly connected external drives and adds them to the list of known drives, which can be read using `dity drive list`. It finds the drives and scand the folder structure to determine if it fits any of the given drive formats provided in `~/.dity/drive-types`.
 
 When a new drive is found, the user is provided the option to add it as a source drive or destination drive. This can later be changed by using `drive edit` if desired.
 
